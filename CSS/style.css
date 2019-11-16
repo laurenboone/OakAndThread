@@ -1,0 +1,38 @@
+/* <!--  /**************************** 
+*   1  :  Helper            *
+*   2  :  Navbar-custom     *
+*   3  :  Title             *
+*   4  :  Home              *
+*   5  :  Features          *
+*   6  :  SERVICES          *
+*   7  :  Clients           *
+*   8  :  Portfolio         *
+*   9  :  Blog              *
+*   10 :  Team              *
+*   11 :  Pricing           *
+*   12 :  Contact           *
+*   13 :  Footer            *
+*   14 :  Responsive        *
+******************************/
+
+/* body default font */
+body {
+    font-family: "lato",Arial, Helvetica, sans-serif;
+}
+
+/* Nav center */
+nav {
+    background-color: pink;
+}
+
+.wrap {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+/* Flexbox on Nav */
+nav .wrap {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
