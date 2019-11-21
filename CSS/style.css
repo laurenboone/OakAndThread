@@ -16,143 +16,56 @@
 ******************************/
 
 /* Lauren Boone */
-/* body default font */
-body {
-    font-family: "lato",Arial, Helvetica, sans-serif;
+
+/* SEARCH RESULTS STYLE START!!! */
+#search1 {
+    text-align: left;
 }
 
-/* Nav center */
-.topNav {
-    background-color: #EFEADE;
+#search2 {
+    text-align: left;
 }
 
-.wrap {
-    max-width: 1240px;
-    margin: 0 auto;
+    /* Filter by and Sort By alignment */
+#filterBy {
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 
-/* Flexbox on Nav */
-nav .wrap {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    height: 40px;
-    align-items: center;
+#sortBy {
+    text-align: right;
+    padding-right: 130px;
+    padding-bottom: 10px;
 }
 
-/* Making tabs on top Nav bar */
-
-.top-bar-tabs { 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 16px;
-    }
-
-.wrap {
-    box-sizing: border-box;
+    /* Put boxes around filter categories */
+#category {
+    outline: 2px solid;
+    margin: 0px 10px 0px 10px;
 }
 
-.oatGrid {
-    background-color: #fff;
-    padding: 20px 9px;
+#color {
+    outline: 2px solid;
+    margin: 0px 10px 0px 10px;
 }
 
-.targetGrid {
-    padding: 20px 9px;
+#price {
+    outline: 2px solid;
+    margin: 0px 10px 0px 10px;
 }
 
-.top-bar-links {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 32px;
+#material {
+    outline: 2px solid;
+    margin: 0px 10px 0px 10px;
 }
 
-/* links */
-a:link {
-    color: black;
-    text-decoration: underline;
+#filters {
+    outline: 2px solid;
+    margin: 0px 10px 0px 10px;
 }
 
-/* Middle nav sear bar, logo and icons */
-
-.midNav .wrap {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    height: 150px;
-    align-items: center;
-}
-
-.logo {
-    font-family: "Motters";
-    font-size: 70pt;
-    padding: 0px 200px 0px 0px;
-}
-
-/* Search Bar */
-.btn {
-    background-color: black;
-    color: white;
-    border-color: white;
-}
-
-/* Mid nav Icons in grid */
-.midNavIcons { 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 16px;
-    }
-
-/* Main Nav Flexbox */
-    .justify-content-center {
-        justify-content: space-between;
-    }
-
-/* Hero Image */
-#hero {
-    padding-top: 15px;
-    padding-bottom: 15px; 
-}
-
-/* Bottom Images Tan Boxes */
-#tanbox1 {
-    background-color: #EFEADE;
-    margin-left: 15px;
-    margin-right: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-#tanbox2 {
-    background-color: #EFEADE;
-    margin-left: 15px;
-    margin-right: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-/* Center Tan Box Text */
-.col {
-    text-align: center;
-}
-
-/* Footer---NEED TO CHANGE LINK COLOR TO WHITE */
-.page-footer {
-    background-color: black;
-    color: white;
-}
-
-/* .list-unstyled { 
-    color: white;
-}*/
-
-.footerLink {
-    color: white !important;
-}
-
-/* Instagram */
-
-.InstaTitle {
-    margin-bottom: 40px;
+#relevant {
+    outline: 2px solid;
+    margin: 0px 10px 0px 10px;
 }
