@@ -103,3 +103,56 @@ a:link {
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 16px;
     }
+
+/* Main Nav Flexbox */
+    .justify-content-center {
+        justify-content: space-between;
+    }
+
+/* Hero Image */
+#hero {
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+
+/* Bottom Images Tan Boxes */
+#tanbox1 {
+    background-color: #EFEADE;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#tanbox2 {
+    background-color: #EFEADE;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Center Tan Box Text */
+.col {
+    text-align: center;
+}
+
+/* Footer---NEED TO CHANGE LINK COLOR TO WHITE */
+.page-footer {
+    background-color: black;
+    color: white;
+}
+
+/* .list-unstyled { 
+    color: white;
+}*/
+
+.footerLink {
+    color: white !important;
+}
+
+/* Instagram */
+
+.InstaTitle {
+    margin-bottom: 40px;
+}
