@@ -56,6 +56,18 @@ a:link {
     text-decoration: underline;
 }
 
+a {
+    color: white;
+}
+
+.homeLink {
+    color: black;
+}
+
+a:hover {
+    color: grey;;
+}
+
 /* Middle nav sear bar, logo and icons */
 
 .midNav .wrap {
@@ -126,10 +138,6 @@ a:link {
     color: white;
 }
 
-/* .list-unstyled { 
-    color: white;
-}*/
-
 .footerLink {
     color: white !important;
 }
@@ -138,5 +146,8 @@ a:link {
 
 .InstaTitle {
     margin-bottom: 40px;
+    outline: 2px solid;
+    margin-left: 470px;
+    margin-right: 470px;
 }
 /* HEADER STYLE END!!!!! */
