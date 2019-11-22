@@ -56,6 +56,18 @@ a:link {
     text-decoration: underline;
 }
 
+a {
+    color: white;
+}
+
+.homeLink {
+    color: black;
+}
+
+a:hover {
+    color: grey;;
+}
+
 /* Middle nav sear bar, logo and icons */
 
 .midNav .wrap {
