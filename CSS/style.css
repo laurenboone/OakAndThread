@@ -65,7 +65,6 @@
     margin: 0px 10px 0px 10px;
 }
 
-<<<<<<< Updated upstream
 #relevant {
     outline: 2px solid;
     margin: 0px 10px 0px 10px;
@@ -75,4 +74,22 @@
 
 .InstaTitle {
     margin-bottom: 40px;
+    outline: 2px solid;
+    margin-left: 470px;
+    margin-right: 470px;
+}
+
+/* Captions for photos aligned left and spaced */
+.subtitle1 {
+    text-align: left;
+    margin: 5px 0px 0px 0px;
+    font-size: 10pt;
+}
+
+/* Price subtitles no margin up top */
+
+.subtitle2 {
+    text-align: left;
+    margin: 0px 0px 20px 0px;
+    font-size: 10pt;
 }
