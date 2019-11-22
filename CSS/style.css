@@ -65,7 +65,14 @@
     margin: 0px 10px 0px 10px;
 }
 
+<<<<<<< Updated upstream
 #relevant {
     outline: 2px solid;
     margin: 0px 10px 0px 10px;
+}
+
+/* Instagram */
+
+.InstaTitle {
+    margin-bottom: 40px;
 }
