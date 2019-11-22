@@ -138,10 +138,6 @@ a:hover {
     color: white;
 }
 
-/* .list-unstyled { 
-    color: white;
-}*/
-
 .footerLink {
     color: white !important;
 }
@@ -150,5 +146,8 @@ a:hover {
 
 .InstaTitle {
     margin-bottom: 40px;
+    outline: 2px solid;
+    margin-left: 470px;
+    margin-right: 470px;
 }
 /* HEADER STYLE END!!!!! */
