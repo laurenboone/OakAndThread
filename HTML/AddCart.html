@@ -16,28 +16,52 @@
 
 </head>
 
-
-<body>
-  <div class="container">
-    <div class="col-md-12">
-
-      <div class="modal fade" id="MyCart">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1>title</h1>
+<div id="gridSystemModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="gridModalLabel">Modal title</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-4 col-example">.col-md-4</div>
+              <div class="col-md-4 ml-auto col-example">.col-md-4 .ml-auto</div>
             </div>
-            <div class="modal-Body">
-              This is body
+            <br>
+            <div class="row">
+              <div class="col-md-3 ml-auto col-example">.col-md-3 .ml-auto</div>
+              <div class="col-md-2 ml-auto col-example">.col-md-2 .ml-auto</div>
             </div>
-            <div class="modal-footer">
-              <input class="btn btn-primary" data-dismiss="modal" value="close">
+            <div class="row">
+              <div class="col-md-6 ml-5 col-example">.col-md-6 .ml-5</div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-sm-9 col-example">
+                Level 1: .col-sm-9
+                <div class="row">
+                  <div class="col-8 col-sm-6 col-example">
+                    Level 2: .col-8 .col-sm-6
+                  </div>
+                  <div class="col-4 col-sm-6 col-example">
+                    Level 2: .col-4 .col-sm-6
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default waves-effect waves-light" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary waves-effect waves-light">Save changes</button>
+        </div>
       </div>
-
-      <a href="#" data-toggle="modal" data-target="#Mycart">Open Modal</a>
+    </div>
+  </div>
 
     </div>
   </div>
