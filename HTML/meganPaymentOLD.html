@@ -44,7 +44,7 @@
     ></script>
   </head>
   <body>
-
+    <header class="page-index">
       <!-- TOP BAR START-->
       <nav class="topNav">
         <div class="wrap">
@@ -119,8 +119,90 @@
     <!-- PROGRESS BAR END -->
 ​
       <!-- Body Section -->
-      <!-- Checkout Summary -->
-      <div class="col-md-4 checkout-summary">
+      ​<div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+          Same as shipping address
+        </label>
+      </div>
+      <br>
+      <!-- Form Start -->
+      <div class="row">
+        <div class="col-md-7">
+          <form class="form row">
+            <div class="col-md-6">
+              <label for="firstName"><b>First Name</b></label>
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Enter name"
+                name="firstName"
+                required
+              />
+              <br />
+              <label for="address"><b>Address</b></label>
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Enter address"
+                name="address"
+                required
+              />
+              <br />
+              <label for="City"><b>City</b></label>
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Enter City"
+                name="address"
+                required
+              />
+              <br />
+              <label for="dlv"><b>Delivery Instructions</b></label>
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Optional"
+                name="dlv"
+                required
+              />
+            </div>
+​
+            <div class="col-md-6">
+              <label for="lastName"><b>Last Name</b></label>
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Enter name"
+                name="lastName"
+                required
+              />
+              <br />
+​
+              <label for="pc"><b>Postal Code</b></label>
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Enter postal code"
+                name="pc"
+                required
+              />
+              <br />
+​
+              <label for="phoneNumber"><b>Phone Number</b></label>
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Enter address"
+                name="phoneNumber"
+                required
+              />
+            </div>
+          </form>
+        </div>
+        <!-- Form End -->
+        <!-- Checkout Summary -->
+        <div class="col-md-4 offset-md-1 checkout-summary">
           <div class="row">
             <div class="col-md-12">
               <h2 class="checkout-summary__header">Checkout Summary</h1>
@@ -151,156 +233,61 @@
           </div>
         </div>
         <br>
-        <br>
-        <br>
-      <h2>Billing Address</h2>
-      ​<div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-        <label class="form-check-label" for="defaultCheck1">
-          Same as shipping address
-        </label>
-      </div>
-      <br>
-       <!-- TEST FORM WITH FEEDBACK START-->
-       <form class="needs-validation" novalidate>
-          <div class="form-row">
-            <div class="col-md-4 mb-3">
-              <label for="validationCustom01">First name</label>
-              <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Jane" required>
-              <div class="valid-feedback">
-                Looks good!
+    
+        <div class="col-md-7">
+            <form class="form row"></form>
+            <form class="form row"></form>
+            <form class="form row"></form>
+            <h2>Payment Information</h2>
+            <form class="form row"></form>
+            <form class="form row">
+              <div class="col-md-6">
+                <label for="firstName"><b>Credit Card Number</b></label>
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Enter credit card number"
+                  name="firstName"
+                  required
+                />
+                <br />
+                <label for="address"><b>Name on Card</b></label>
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Enter first and last name on card"
+                  name="address"
+                  required
+                />
+                <br />
+                <label for="City"><b>Expiration Date</b></label>
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="XX/XX"
+                  name="address"
+                  required
+                />
+                <br />
+                <label for="dlv"><b>CVV</b></label>
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="XXX"
+                  name="dlv"
+                  required
+                />
               </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <label for="validationCustom02">Last name</label>
-              <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Smith" required>
-              <div class="valid-feedback">
-                Looks good!
-              </div>
-            </div>
-          </div>
-          <div class="form-row">
-              <div class="col-md-4 mb-3">
-                  <label for="validationCustom02">Address</label>
-                  <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="1234 Thread St." required>
-                  <div class="valid-feedback">
-                    Looks good!
-                  </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <label for="validationCustom02">City</label>
-                    <input type="text" class="form-control" id="validationCustom02" placeholder="City" value="Austin" required>
-                    <div class="valid-feedback">
-                      Looks good!
-                    </div>
-                  </div>
-          </div>
-          <div class="form-row">
-              <div class="col-md-4 mb-3">
-                  <label for="validationCustom02">State</label>
-                  <input type="text" class="form-control" id="validationCustom02" placeholder="State" value="Texas" required>
-                  <div class="valid-feedback">
-                    Looks good!
-                  </div>
-                </div>
-            <div class="col-md-4 mb-3">
-              <label for="validationCustom05">Zip</label>
-              <input type="text" class="form-control" id="validationCustom05" placeholder="787033" required>
-              <div class="invalid-feedback">
-                Please provide a valid zip.
-              </div>
-            </div>
-          </div>
-<!-- This is where the payment form goes -->
-      <br>
-      <br>
-      <br>    
-      <h2>Payment Information</h2>
-      <br>
-      <div class="form-row">
-          <div class="col-md-4 mb-3">
-            <label for="validationCustom01">First name</label>
-            <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Jane" required>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <label for="validationCustom02">Last name</label>
-            <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Smith" required>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-          </div>
-        </div>
-        <div class="form-row">
-            <div class="col-md-2 mb-3">
-                <label for="validationCustom02">Type of Card</label>
-                <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Visa" required>
-                <div class="valid-feedback">
-                  Looks good!
-                </div>
-              </div>
-              <div class="col-md-6 mb-3">
-                  <label for="validationCustom02">Card Number</label>
-                  <input type="text" class="form-control" id="validationCustom02" placeholder="City" value="1234 5678 9012 3456" required>
-                  <div class="valid-feedback">
-                    Looks good!
-                  </div>
-                </div>
-        </div>
-        <div class="form-row">
-            <div class="col-md-4 mb-3">
-                <label for="validationCustom02">Expiration Date</label>
-                <input type="text" class="form-control" id="validationCustom02" placeholder="State" value="01/01" required>
-                <div class="valid-feedback">
-                  Looks good!
-                </div>
-              </div>
-              <div class="col-md-4 mb-3">
-                  <label for="validationCustom02">CVV</label>
-                  <input type="text" class="form-control" id="validationCustom02" placeholder="State" value="123" required>
-                  <div class="valid-feedback">
-                    Looks good!
-                  </div>
-                </div>
-        </div>
-
-          <div class="form-group">
+            </form>
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-              <label class="form-check-label" for="invalidCheck">
-                Agree to terms and conditions
-              </label>
-              <div class="invalid-feedback">
-                You must agree before submitting.
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  I agree to the Terms & Conditions
+                </label>
               </div>
-            </div>
           </div>
-          <!-- <button class="btn btn-primary" type="submit">Confirm Shipping</button> -->
-        </form>
-        
-        <script>
-        // Example starter JavaScript for disabling form submissions if there are invalid fields
-        (function() {
-          'use strict';
-          window.addEventListener('load', function() {
-            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-            var forms = document.getElementsByClassName('needs-validation');
-            // Loop over them and prevent submission
-            var validation = Array.prototype.filter.call(forms, function(form) {
-              form.addEventListener('submit', function(event) {
-                if (form.checkValidity() === false) {
-                  event.preventDefault();
-                  event.stopPropagation();
-                }
-                form.classList.add('was-validated');
-              }, false);
-            });
-          }, false);
-        })();
-        </script>
-            <!-- Modal Button -->
+    
+    <!-- Modal Button -->
         <button
           type="button"
           class="btn btn-danger confirm-shipping col-md-4 confShipBtn" data-toggle="modal" data-target="#exampleModal"
@@ -329,3 +316,11 @@
           </div>
         </div>
       </div>
+    <header class="page-index">
+      </div>
+      <!-- Checkout Summary End -->
+      <!-- Body Section End -->
+    </main>
+    <!-- HEADER END -->
+  </body>
+</html>

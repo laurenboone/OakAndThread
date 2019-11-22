@@ -196,9 +196,9 @@ body {
     color: white;
 }
 
-.confShipBtn {
-    margin-left: 95px;
-}
+/* .confShipBtn { */
+    /* margin-left: 95px; */
+/* } */
 
 
 /* Credit card form 
@@ -213,3 +213,22 @@ body {
   .nav-pills .nav-link.active {
     color: #fff;
   }*/
+
+  /* Confirmation Page */
+  .confSent {
+      text-align: center;
+  }
+
+  .confBtn {
+      align-self: center;
+  }
+
+  .confirmation-summary__header {
+      color: green;
+      text-align: center;
+      margin-top: 15px;
+  }
+
+  .confirmation-summary {
+    border: 3px solid green;
+  }
