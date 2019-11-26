@@ -10,6 +10,18 @@ body {
     justify-content: space-around;
 }
 
+.topHome {
+    text-align: end;
+}
+
+.topOT {
+    text-align: end;
+}
+
+.topGiftcards {
+    text-align: end;
+}
+
 .wrap {
     max-width: 1240px;
     margin: 0 auto;
