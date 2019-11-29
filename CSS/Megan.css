@@ -20,20 +20,20 @@ body {
     font-family: "lato", Arial, Helvetica, sans-serif;
   }
   /* Nav center */
-  .topNav {
+  /* .topNav {
     background-color: #efeade;
   }
   .wrap {
-    margin: 0 142px;
-  }
+    margin: 0 142px; */
+  
   /* Flexbox on Nav */
-  nav .wrap {
+  /* nav .wrap {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     height: 40px;
     align-items: center;
-  }
+  } */
   /* Making tabs on top Nav bar */
   .top-bar-tabs {
     display: grid;
@@ -43,7 +43,7 @@ body {
   .wrap {
     box-sizing: border-box;
   }
-  .oatGrid {
+  /* .oatGrid {
     background-color: #fff;
     padding: 20px 9px;
   }
@@ -54,14 +54,14 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 32px;
-  }
+  } */
   /* links */
-  a:link {
+  /* a:link {
     color: black;
     text-decoration: underline;
-  }
+  } */
   /* Middle nav sear bar, logo and icons */
-  .midNav .wrap {
+  /* .midNav .wrap {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -71,16 +71,16 @@ body {
   .logo {
     font-family: "Motters";
     font-size: 70pt;
-    padding: 0px 200px 0px 0px;
-  }
+    padding: 0px 200px 0px 0px; */
+  
   /* Search Bar */
-  .btn {
+  /* .btn {
     background-color: black;
     color: white;
     border-color: white;
-  }
+  } */
   /* Mid nav Icons in grid */
-  .midNavIcons {
+  /* .midNavIcons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -90,7 +90,7 @@ body {
   input[type="password"]:focus {
     background-color: #ddd;
     outline: none;
-  }
+  } */
   /* Overwrite default styles of hr */
   hr {
     border: 1px solid #f1f1f1;
@@ -161,6 +161,10 @@ body {
       background-color: #C3C3C3;
   }
 
+  .progress-bar {
+    font-size: medium;
+  }
+
   /* Font weights */
   h1 {
       font-size: 20pt;
@@ -190,10 +194,10 @@ body {
 }
 
 /* button */
-.btn {
+/* .btn {
     font-size: 25px;
     color: white;
-}
+} */
 
 .footerLink {
     color: white;

@@ -64,3 +64,35 @@
 .homeLink {
     color: black;
 }
+
+
+/* SHOPPING CART START */
+
+    /* underline grid lablels */
+    .shoppingLines {
+        border: .02rem solid black;
+        margin-bottom: 25px;
+    }
+
+    .mainCart {
+        text-align: left;
+    }
+
+    .cartPhoto {
+        text-align: left;
+        padding: 0px;
+    }
+
+    /* Cart summary alignment & button */
+    .cartSummary {
+        text-align: end;
+        padding: .5rem 0rem .5rem 0rem;
+    }
+
+    .btnCart {
+        align-self: right;
+    }
+
+    #returnsPolicy {
+        text-decoration: underline;
+    }
