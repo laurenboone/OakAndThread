@@ -25,6 +25,30 @@ div.desc {
     padding: 10px 0px 0px 0px;
 }
 
+/* Button */
+.btn-primary {
+  color: #fff;
+  background-color: #C90404;
+  border-color: #C90404;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  padding: .25rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+}
+/* Button styling 
+element.style {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+
 /* Expanded lists  */
 .list-group-item {
     margin-bottom: 10px;
