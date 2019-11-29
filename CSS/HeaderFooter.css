@@ -8,10 +8,13 @@ body {
 .topNav {
     background-color: #EFEADE;
     justify-content: space-around;
+    height: 2rem;
+    align-items: center;
 }
 
 .topHome {
     text-align: end;
+    color: black;
 }
 
 .topOT {
@@ -25,6 +28,10 @@ body {
 .wrap {
     max-width: 1240px;
     margin: 0 auto;
+}
+
+.topTarget {
+    padding-right: 1rem;
 }
 
 /* Flexbox on Nav */
@@ -73,13 +80,31 @@ a {
     color: white;
 }
 
-.homeLink {
+#homeLink {
     color: black;
 }
+
+/* .homeLink {
+    color: black;
+} */
 
 a:hover {
     color: grey;;
 }
+
+/* button active color */
+/* .btn-primary:hover {
+    color: pink !important;
+} */
+
+/* .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #8064A2;
+} */
+
+/* .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #00b3db;
+    border-color: #285e8e; /*set the color you want here*/
 
 /* Middle nav sear bar, logo and icons */
 
@@ -94,8 +119,14 @@ a:hover {
 .logo {
     font-family: "Motters";
     font-size: 70pt;
-    padding: 0px 200px 0px 0px;
+    text-align: center;
+    }
+
+.searchBar {
+    align-self: center;
+    justify-self: end;
 }
+
 
 /* Search Bar */
 .btn {
@@ -104,17 +135,42 @@ a:hover {
     border-color: white;
 }
 
+/* .button-primary-override:hover, 
+.button-primary-override:active,
+.button-primary-override:focus,
+.button-primary-override:visited{
+    background-color: #42A5F5 !important;
+    border-color: #42A5F5 !important;
+    background-image: none !important;
+    border: 0 !important;
+} */
+
 /* Mid nav Icons in grid */
 .midNavIcons { 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-rows: 1fr 1fr;
     grid-gap: 16px;
+    text-align: center;
+    /* align-self: center;
+    text-align: center; */
     }
+
+.heartIcon {
+    align-self: end;
+}
+
+.accountIcon {
+    align-self: end;
+}
+
+.cartIcon {
+    align-self: end;
+}
 
 /* Main Nav Flexbox */
     .justify-content-center {
-        justify-content: space-between;
+    justify-content: space-between;
     }
 
 /* Hero Image */

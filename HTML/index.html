@@ -22,20 +22,66 @@
   
   <!-- NEW HEADER START -->
   <!-- <div class="container"> -->
-          <div class="row topNav">
-              <div class="col-2 topHome">Home</div>
-              <div class="col-3 topOT">Oak + Thread</div>
-              <div class="col-3 topTarget">Target</div>
+    <!-- <div class="container">     -->
+        <div class="row topNav">
+              <div class="col-2 topHome"><a id="homeLink" href="../HTML/index.html">Home</a></div>
+              <div class="col-2 topHome"></div>
+              <div class="col-2 topOT">Oak + Thread</div>
+              <div class="col-2 topTarget"><img src="../Images/target-black-extrasmall.png">Target</div>
               <div class="col-2 topGiftCards">Gift Cards</div>
               <div class="col-2 topRegistry">Registry</div>
-            </div>
-    <!-- </div> -->
-
+        </div>
+    <!-- </div>   -->
   <!-- NEW HEADER END -->
+
+  <!-- NEW MID NAV START -->
+  <br>  
+  <div class="container">   
+      <div class="row">
+          <!-- <div class="col-1"></div> -->
+          <div class="col-md-4 searchBar">
+              <form class="form-inline">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="../HTML/SearchTable.html">Search</a></button>
+                </form> 
+            <!-- <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0 flex-row-reverse" type="submit"><a href="../HTML/SearchTable.html">Search</a></button>
+                  </form> -->
+              </div>
+            <div class="col-md-4 logo">Oak + Thread</div>
+            <div class="col-1"></div>
+            <div class="midNavIcons">
+                <a class="heartIcon"> <img src="../Images/Heart Icon.png"></a>
+                <a class="accountIcon"> <img src="../Images/Account Icon.png"></a>
+                <a class="cartIcon"> <img src="../Images/Cart Icon.png"></a>
+                <a>Favorites</a>
+                <a>Account</a>
+                <a>Cart</a>
+            </div>
+                <!-- <div class="row">
+                  <div class="col">Column</div>
+                  <div class="col">Column</div>
+                  <div class="col">Column</div>
+                  <div class="w-100"></div>
+                  <div class="col">Column</div>
+                  <div class="col">Column</div>
+                  <div class="col">Column</div>
+                </div> -->
+            <!-- <div class="col-1"></div> -->
+
+            <!-- <div class="col-1 midNavIcons">Favorites</div>
+            <div class="col-1 midNavIcons">Account</div>
+            <div class="col-1 midNavIcons">Cart</div> -->
+          </div>
+        </div> 
+          <br>
+
+  <!-- NEW MID NAV END -->
   
   <!-- HEADER START -->
     <header class="page-index">
-        <!-- TOP BAR START-->
+        <!-- TOP BAR START
         <nav class="topNav">
             <div class="wrap">
                 <div class="top-bar-home">
@@ -51,10 +97,10 @@
                 </div>
             </div>
         </nav>
-        <!-- TOP BAR END -->
-       
+         TOP BAR END -->
+        
         <!-- MID NAV BAR START -->
-        <nav class="midNav">
+        <!-- <nav class="midNav">
             <div class="wrap">
                 <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -70,7 +116,7 @@
                     <a>Cart</a>
                 </div>
             </div>
-        </nav>
+        </nav> -->
         <!-- MID NAV BAR END -->
         
         <!-- MAIN NAV START -->
@@ -134,7 +180,7 @@
     <footer class="page-footer font-small blue pt-4 nav-fill">
 
         <!-- Footer Links -->
-        <div class="container-fluid text-center text-md-left">
+        <div class="container text-center text-md-left">
       
           <!-- Grid row -->
           <div class="row">
@@ -144,9 +190,9 @@
       
               <!-- Content -->
               <h5 class="text-uppercase">Contact Us</h5>
-              <p>1 (800) 646-9985</p>
-              <p>customerservice@oakandthread.com</p>
-              <p>Find a Target</p>
+              <p><a href="#!" class="footerLink">1 (800) 646-9985</a></p>
+              <p><a href="mailto: customerservice@oakandthread.com" class="footerLink">customerservice@oakandthread.com</a></p>
+              <p><a href="www.target.com" class="footerLink">Find a Target</a></p>
       
             </div>
             <!-- Grid column -->
