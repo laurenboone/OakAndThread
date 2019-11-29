@@ -1,0 +1,24 @@
+label [for=exampleInputPassword1] {
+    color: yellow;
+}
+​
+.form-group {
+    font-family: "lato";
+}
+​
+/* making buttons black outline */
+/* .btn-secondary {
+    background-color: transparent;
+    color: black;
+}
+​
+button {
+    background-color: transparent;
+} */
+​
+.btn-secondary {
+    color: black;
+    background-color: transparent;
+    border-color: black;
+    text-align: left;
+}
