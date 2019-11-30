@@ -89,6 +89,15 @@
         padding: .5rem 0rem .5rem 0rem;
     }
 
+    .btn-primary {
+        color: #fff;
+        background-color: #C90404;
+        border-color: #C90404;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+      }
+
     .btnCart {
         align-self: right;
     }

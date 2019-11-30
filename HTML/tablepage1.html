@@ -99,14 +99,14 @@
          <div class="col-md-5">
             <div class="container">
                 <div class="row">
-                  <div class="col-10 colGrady"><h1 class="productnametext">Esters Wood Arm Chair</h1></div>
-                  <div class="col colGrady"><img src="../Images/Heart Icon.png" align="right" width="30" height="30"></div>
+                  <div class="col-10 colGrady"><h1 class="productnametext">Natural Coffee Table</h1></div>
+                  <div class="col colGrady heartIconGrady"><img src="../Images/Heart Icon.png" align="right" width="25" height="25"></div>
                   <div class="w-100"></div>
-                  <div class="col colGrady"><p class="skutext">SKU: 827493</p></div>
-                  <div class="col colGrady"><img src="../Images/fivestars.png" align="right"></div>
+                  <div class="col colGrady heartIconGrady"><p class="skutext">SKU: 592741</p></div>
+                  <div class="col colGrady heartIconGrady"><img src="../Images/fivestars.png" align="right" width="100" height="15"></div>
                   <div class="w-100"></div>
-                  <div class="col colGrady"><p class="pricetext">$299.99</p></div>
-                  <div class="col colGrady"><p class="rewiewstext" align="right">23 Reviews</p></div>
+                  <div class="col colGrady"><p class="pricetext">$159.00</p></div>
+                  <div class="col colGrady"><p class="rewiewstext" align="right">37 Reviews</p></div>
                   <div class="w-100"></div>
                   <div class="col colGrady"><img src="../Images/threesquaresnoheart.png" width="100" height="30"></div>
                   <div class="col mainCart">
@@ -119,7 +119,14 @@
                 </div>
               </div>
               <br>
-                <button type="button" class="btn btn-primary btn-lg btn-block">ADD TO CART</button>
+              <div class="container">
+                <div class="row">
+                  <button
+                    type="button" class="btn btn-primary btn-danger btn-block" data-toggle="modal" data-target="#cartModal">
+                    Confirm Shipping
+                  </button>
+                  </div>
+                </div>
                     <ul class="list-group">
                     <li class="list-group-item">
                         <span class="badge">+</span>
@@ -137,85 +144,70 @@
                 </div>
             </div>
             </div>
+
 ​
-<!-- OG container
-        <h1>Esters Wood Arm Chair</h1>
-        <p class="smalltext">SKU: 827493</p>
-        <h2>$299.99</h2>
-        <img src="../Images/hearticon1.png">
-        <img src="../Images/fivestars.png">
-        <p class="smalltext">23 Reviews</p>
-        <img src="../Images/coloroption2.png">
-        <img src="../Images/coloroption3.png">
-        <img src="../Images/coloroption4.png">
-​
--->
-          
-       
-​
-<!-- button html 
-        <button type="button" class="btn btn-primary btn-lg btn-block">ADD TO CART</button>
-        <section class="infotab">
-           <p>overview</p>
-           <p>+</p>
-        </section>
-        <section class="infotab">
-            <p>details + dimensions</p>
-            <p>+</p>
-         </section>
-         <section class="infotab">
-            <p>shipping + returns</p>
-            <p>+</p>
-         </section>
-        </div>
-      -->
-​
-        
-​
-       <!-- alt images
-       <div class="container" id="product-section">
-        <div class="row">
-         <div class="col-md-7">
-       <img src="../Images/chair2.png">
-       <img src="../Images/chair3.png">
-       <img src="../Images/chair4.png">
-       </div>
-       </div>
-      -->
-​
-      <!-- Alternate product photos
-        
-        <div class="container" id="other-products">
-        <div class="row">
-​
-         <div class="col-md-2">
-       <div class="gallery">
-          <img src="../Images/chair2.png" width="200" height="150">
-       </div>
-         </div>
-​
-         <div class="col-md-2"></div>
-      <div class="gallery">
-        <img src="../Images/chair3.png" width="200" height="150">
-       </div>
-      </div>  
-​
-      <div class="col-md-2"></div>
-      <div class="gallery">
-        <img src="../Images/chair4.png" width="200" height="150">
+
+  <!-- MODAL START -->
+                <!-- Modal Button -->
+  <!-- <button
+      type="button" class="btn btn-danger confirm-shipping col-md-4 confShipBtn" data-toggle="modal" data-target="#cartModal">
+        Confirm Shipping
+  </button> -->
+      
+  <div class="modal" id="cartModal">
+        <div class="container modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="gridModalLabel" style="font-size: 1.5rem;">Added to Cart!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+              <span aria-hidden="true">x</span>
+            </button>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <!-- <h2>Added to Cart!</h2> -->
+              <img src="../Images/table top.jpg" style="margin-bottom:10px; margin-top: 1rem;"></a>
+              <h3 style="margin-bottom:10px; margin-top: .5rem; font-size: 1.5rem;">Natural Coffee Table</h3>
+              <h4 style="font-size: 1.2rem;">$159.00</h4>
+            </div>
+            <div class="col-md-6" style="height: 250px;">
+              <h3 style="font-size: 1.5rem; padding-left: 15px; margin-top: 1rem;">Currently in Cart: 1 item</h3>
+              <h4 style="padding-left: 15px; font-size: 1.2rem;">$159.00</h4>
+              <h6 style="padding: 0px 0px 15px 15px;">(Total not including shipping,
+                discounts, or tax)</h6>
+                <div class="col colGrady">
+                    <button type="button" class="btn btn-block btn-outline-dark" style="margin-bottom:15px">Continue Shopping</button>
+                  </div>
+                <div class="col colGrady">
+                    <button type="button" class="btn btn-primary btn-block btn-danger">Go to Cart</button>
+                  </div>
+            </div>
+          </div>  
+          <div class="row">
+            <div class="col-sm-9">
+              <h3 Style="margin-top:40px; margin-bottom:30px; font-size: 1.2rem;">Trending Coffe & Accent Tables</h3> 
+              <div class="row">
+                <div class="col-8 col-sm-4">
+                  <img src="../Images/trending-table03.jpg"></a>
+                  <h5 style="font-size: 1rem; padding-top: 10px;">Cliffmay Coffee Table</h5>
+                  <h5 style="font-size: .8rem;">$179.99</h5>
+                </div>
+                <div class="col-4 col-sm-4">
+                  <img src="../Images/trending-table02.jpg"></a>
+                  <h5 style="font-size: 1rem; padding-top: 10px;">Loring Coffee Table</h5>
+                  <h5 style="font-size: .8rem;">$149.00</h5>
+                </div>
+                <div class="col-2 col-sm-4">
+                  <img src="../Images/trending -table.jpg"></a>
+                  <h5 style="font-size: 1rem; padding-top: 10px;"> Slat Top Patio Coffee Table</h5>
+                  <h5 style="font-size: .8rem;">$129.99</h5>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-​
-        </div>
-        </div>
-        </div> -->
-      
-    <!-- main image -->
-​
-​
-    <!-- container -->
-​
-    <!-- additional images -->
+    
+      <!-- MODAL END -->
 
   <!-- FOOTER START -->
   <br>
