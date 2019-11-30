@@ -24,6 +24,7 @@
       crossorigin="anonymous"
     />
     <!-- Custom  CSS-->
+    <link rel="stylesheet" type="text/css" href="../CSS/HeaderFooter.css" />
     <link rel="stylesheet" type="text/css" href="../CSS/style.css" />
     <link rel="stylesheet" type="text/css" href="../CSS/Megan.css" />
     <!-- Bootstrap JAVA -->
@@ -44,55 +45,69 @@
     ></script>
   </head>
   <body>
-    <header class="page-index">
-      <!-- TOP BAR START-->
-      <nav class="topNav">
-        <div class="wrap">
-          <div class="top-bar-home">
-            <a href="index.html">Home</a>
-          </div>
-          <div class="top-bar-tabs">
-            <a class="oatGrid">Oak + Thread</a>
-            <a class="targetGrid"
-              ><img src="../Images/target-black-extrasmall.png" />Target</a
-            >
-          </div>
-          <div class="top-bar-links">
-            <a href="https://www.target.com">Gift Cards</a>
-            <a href="https://www.target.com">Registry</a>
-          </div>
-        </div>
-      </nav>
-      <!-- TOP BAR END -->
-​
-      <!-- MID NAV BAR START -->
-      <nav class="midNav">
-        <div class="wrap">
-          <form class="form-inline my-2 my-lg-0">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
-          </form>
-          <div class="logo">Oat + Thread</div>
+ <!-- NEW HEADER START -->
+  <!-- <div class="container"> -->
+    <!-- <div class="container">     -->
+        <div class="row topNav">
+            <div class="col-2 topHome"><a id="homeLink" href="../HTML/index.html">Home</a></div>
+            <div class="col-2 topHome"></div>
+            <div class="col-2 topOT">Oak + Thread</div>
+            <div class="col-2 topTarget"><img src="../Images/target-black-extrasmall.png">Target</div>
+            <div class="col-2 topGiftCards">Gift Cards</div>
+            <div class="col-2 topRegistry">Registry</div>
+      </div>
+  <!-- </div>   -->
+<!-- NEW HEADER END -->
+
+<!-- NEW MID NAV START -->
+<br>  
+<div class="container">   
+    <div class="row">
+        <!-- <div class="col-1"></div> -->
+        <div class="col-md-4 searchBar">
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="../HTML/SearchTable.html">Search</a></button>
+              </form> 
+            </div>
+          <div class="col-md-4 logo">Oak + Thread</div>
+          <div class="col-1"></div>
           <div class="midNavIcons">
-            <a class="heartIcon"> <img src="../Images/Heart Icon.png"/></a>
-            <a class="accountIcon"> <img src="../Images/Account Icon.png"/></a>
-            <a class="cartIcon"> <img src="../Images/Cart Icon.png"/></a>
-            <a>Favorites</a>
-            <a>Account</a>
-            <a>Cart</a>
+              <a class="heartIcon"> <img src="../Images/Heart Icon.png"></a>
+              <a class="accountIcon"> <img src="../Images/Account Icon.png"></a>
+              <a class="cartIcon"> <img src="../Images/Cart Icon.png"></a>
+              <a>Favorites</a>
+              <a>Account</a>
+              <a>Cart</a>
           </div>
         </div>
-      </nav>
-      
+      </div> 
+        <br>
+
+<!-- NEW MID NAV END -->
+<!-- MAIN NAV START -->
+<nav>
+        <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Living Room</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Dining Room</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Bedroom</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">Home Office</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">Outdoors</a>
+                </li>
+              </ul>
+        </nav>
+        <!-- MAIN NAV END -->
     </header>
-    <!-- HEADER END -->
+<!-- HEADER END -->
 
     <!-- SHIPPING START -->
     <br>

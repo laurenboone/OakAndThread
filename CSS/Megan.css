@@ -127,7 +127,8 @@ body {
     text-align: center;
   }
   .checkout-summary {
-    border: 3px solid black;
+    /* border: 2px solid grey; */
+    background-color: #F2F2F2;
   }
   .checkout-summary__column-one {
     flex-direction: column;
@@ -239,3 +240,20 @@ body {
   .confirmation-summary {
     border: 3px solid green;
   }
+
+  /* Flex Box Test */
+  .checkoutAll {
+    display: flex;
+    margin: 30px auto 0;
+    max-width: 1172px;
+    padding: 0 72px 24px;
+    justify-content: space-around;
+}
+
+.form-row {
+  justify-content: space-around;
+}
+
+.form-control {
+  width: auto;
+}

@@ -24,6 +24,7 @@
       crossorigin="anonymous"
     />
     <!-- Custom  CSS-->
+    <link rel="stylesheet" type="text/css" href="../CSS/HeaderFooter.css" />
     <link rel="stylesheet" type="text/css" href="../CSS/style.css" />
     <link rel="stylesheet" type="text/css" href="../CSS/Megan.css" />
     <!-- Bootstrap JAVA -->
@@ -44,55 +45,68 @@
     ></script>
   </head>
   <body>
+ <!-- NEW HEADER START -->
+  <!-- <div class="container"> -->
+    <!-- <div class="container">     -->
+        <div class="row topNav">
+            <div class="col-2 topHome"><a id="homeLink" href="../HTML/index.html">Home</a></div>
+            <div class="col-2 topHome"></div>
+            <div class="col-2 topOT">Oak + Thread</div>
+            <div class="col-2 topTarget"><img src="../Images/target-black-extrasmall.png">Target</div>
+            <div class="col-2 topGiftCards">Gift Cards</div>
+            <div class="col-2 topRegistry">Registry</div>
+      </div>
+<!-- NEW HEADER END -->
 
-      <!-- TOP BAR START-->
-      <nav class="topNav">
-        <div class="wrap">
-          <div class="top-bar-home">
-            <a href="index.html">Home</a>
-          </div>
-          <div class="top-bar-tabs">
-            <a class="oatGrid">Oak + Thread</a>
-            <a class="targetGrid"
-              ><img src="../Images/target-black-extrasmall.png" />Target</a
-            >
-          </div>
-          <div class="top-bar-links">
-            <a href="https://www.target.com">Gift Cards</a>
-            <a href="https://www.target.com">Registry</a>
-          </div>
-        </div>
-      </nav>
-      <!-- TOP BAR END -->
-​
-      <!-- MID NAV BAR START -->
-      <nav class="midNav">
-        <div class="wrap">
-          <form class="form-inline my-2 my-lg-0">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
-          </form>
-          <div class="logo">Oat + Thread</div>
+<!-- NEW MID NAV START -->
+<br>  
+<div class="container">   
+    <div class="row">
+        <!-- <div class="col-1"></div> -->
+        <div class="col-md-4 searchBar">
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="../HTML/SearchTable.html">Search</a></button>
+              </form> 
+            </div>
+          <div class="col-md-4 logo">Oak + Thread</div>
+          <div class="col-1"></div>
           <div class="midNavIcons">
-            <a class="heartIcon"> <img src="../Images/Heart Icon.png"/></a>
-            <a class="accountIcon"> <img src="../Images/Account Icon.png"/></a>
-            <a class="cartIcon"> <img src="../Images/Cart Icon.png"/></a>
-            <a>Favorites</a>
-            <a>Account</a>
-            <a>Cart</a>
+              <a class="heartIcon"> <img src="../Images/Heart Icon.png"></a>
+              <a class="accountIcon"> <img src="../Images/Account Icon.png"></a>
+              <a class="cartIcon"> <img src="../Images/Cart Icon.png"></a>
+              <a>Favorites</a>
+              <a>Account</a>
+              <a>Cart</a>
           </div>
         </div>
-      </nav>
-      
+      </div> 
+        <br>
+
+<!-- NEW MID NAV END -->
+<!-- MAIN NAV START -->
+<nav>
+        <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Living Room</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Dining Room</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Bedroom</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">Home Office</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">Outdoors</a>
+                </li>
+              </ul>
+        </nav>
+        <!-- MAIN NAV END -->
     </header>
-    <!-- HEADER END -->
+<!-- HEADER END -->
 
     <!-- SHIPPING START -->
     <br>
@@ -114,55 +128,23 @@
       </div>
       <br>
       <br>
-      <br>
-      <br>
     <!-- PROGRESS BAR END -->
 ​
       <!-- Body Section -->
       <!-- Checkout Summary -->
-      <div class="col-md-4 checkout-summary">
-          <div class="row">
-            <div class="col-md-12">
-              <h2 class="checkout-summary__header">Checkout Summary</h1>
-            </div>
-          </div>
-          <br />
-          <div class="row">
-            <div class="col-md-6 checkout-summary__column-one col1">
-              <h4>Price (3 items)</h4>
-              <hr />
-              <h4>Delivery Charge</h4>
-              <h6><u>Flat Shipping Cost</u></h6>
-              <hr />
-              <h4>Sales Tax</h4>
-              <hr />
-              <h4><b>Total Price</b></h4>
-            </div>
-            <div class="col-md-6 checkout-summary__column-two col2">
-              <h4>$538.98</h4>
-              <hr />
-              <h4>$24.99</h4>
-              <hr />
-              <br />
-              <h4>$48.51</h4>
-              <hr />
-              <h4><b>$612.48</b></h4>
-            </div>
-          </div>
-        </div>
-        <br>
-        <br>
-        <br>
-      <h2>Billing Address</h2>
-      ​<div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-        <label class="form-check-label" for="defaultCheck1">
-          Same as shipping address
-        </label>
-      </div>
-      <br>
+      
+     
+    <div class="checkoutAll">
        <!-- TEST FORM WITH FEEDBACK START-->
        <form class="needs-validation" novalidate>
+          <h2>Billing Address</h2>
+          <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                Same as shipping address
+              </label>
+            </div>
+            <br>
           <div class="form-row">
             <div class="col-md-4 mb-3">
               <label for="validationCustom01">First name</label>
@@ -234,14 +216,14 @@
           </div>
         </div>
         <div class="form-row">
-            <div class="col-md-2 mb-3">
+            <div class="col-md-4 mb-3">
                 <label for="validationCustom02">Type of Card</label>
                 <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Visa" required>
                 <div class="valid-feedback">
                   Looks good!
                 </div>
               </div>
-              <div class="col-md-6 mb-3">
+              <div class="col-md-4 mb-3">
                   <label for="validationCustom02">Card Number</label>
                   <input type="text" class="form-control" id="validationCustom02" placeholder="City" value="1234 5678 9012 3456" required>
                   <div class="valid-feedback">
@@ -277,8 +259,40 @@
               </div>
             </div>
           </div>
-          <button class="btn btn-primary" type="submit">Confirm Shipping</button>
+          <button class="btn btn-primary btn-danger" type="submit">
+            <a href="../HTML/meganConfirmation.html">Confirm Shipping</a></button>
         </form>
+        <div class="col-md-4 checkout-summary">
+            <div class="row">
+              <div class="col-md-12">
+                <h2 class="checkout-summary__header">Checkout Summary</h1>
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <div class="col-md-6 checkout-summary__column-one col1">
+                <h4>Price (3 items)</h4>
+                <hr />
+                <h4>Delivery Charge</h4>
+                <h6 style="font-size: .8rem;"><u>Flat Shipping Cost</u></h6>
+                <hr />
+                <h4>Sales Tax</h4>
+                <hr />
+                <h4><b>Total Price</b></h4>
+              </div>
+              <div class="col-md-6 checkout-summary__column-two col2">
+                <h4>$538.98</h4>
+                <hr />
+                <h4>$24.99</h4>
+                <hr />
+                <br />
+                <h4>$48.51</h4>
+                <hr />
+                <h4><b>$612.48</b></h4>
+              </div>
+            </div>
+          </div>  
+      </div>
         
         <script>
         // Example starter JavaScript for disabling form submissions if there are invalid fields
