@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
     <!-- Custom  CSS-->
+    <link rel="stylesheet" type="text/css" href="../CSS/HeaderFooter.css" />
     <link rel="stylesheet" type="text/css" href="../CSS/grady.css" />
     <!-- Bootstrap JAVA -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -23,7 +24,46 @@
     </script>
 </head>
 <body>
-    <!-- breadcrumbs -->
+     <!-- NEW HEADER START -->
+  <!-- <div class="container"> -->
+    <!-- <div class="container">     -->
+            <div class="row topNav">
+                    <div class="col-2 topHome"><a id="homeLink" href="../HTML/index.html">Home</a></div>
+                    <div class="col-2 topHome"></div>
+                    <div class="col-2 topOT">Oak + Thread</div>
+                    <div class="col-2 topTarget"><img src="../Images/target-black-extrasmall.png">Target</div>
+                    <div class="col-2 topGiftCards">Gift Cards</div>
+                    <div class="col-2 topRegistry">Registry</div>
+              </div>
+          <!-- </div>   -->
+        <!-- NEW HEADER END -->
+        
+        <!-- NEW MID NAV START -->
+        <br>  
+        <div class="container">   
+            <div class="row">
+                <!-- <div class="col-1"></div> -->
+                <div class="col-md-4 searchBar">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="../HTML/SearchTable.html">Search</a></button>
+                      </form> 
+                    </div>
+                  <div class="col-md-4 logo">Oak + Thread</div>
+                  <div class="col-1"></div>
+                  <div class="midNavIcons">
+                      <a class="heartIcon"> <img src="../Images/Heart Icon.png"></a>
+                      <a class="accountIcon"> <img src="../Images/Account Icon.png"></a>
+                      <a class="cartIcon"> <img src="../Images/Cart Icon.png"></a>
+                      <a>Favorites</a>
+                      <a>Account</a>
+                      <a>Cart</a>
+                  </div>
+                </div>
+              </div> 
+        
+        <!-- NEW MID NAV END -->
+    <!-- breadcrumbs 
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="#">HOME</a></li>
@@ -32,26 +72,88 @@
           <li class="breadcrumb-item active" aria-current="page">NATURAL COFFEE TABLE</li>
         </ol>
       </nav>
+        -->
 ​
+      <div class="container" id="product-section">
+          <div class="row">
+           <div class="col-md-7">
 ​
     <p>HOME / LIVING ROOM / FURNITURE / NATURAL COFFEE TABLE</p>
+      </div>
+      </div>
+      </div>
 ​
     <div class="container" id="product-section">
         <div class="row">
          <div class="col-md-7">
-          <img src="../Images/lamp1.png" width="635">
+          <img src="../Images/chair1.png" width="635">
+          <div class="container">
+              <div class="row">
+                <div class="col subpics colGrady" id="chair2"><img src="../Images/chair2.png" width="180" height="100"></div>
+                <div class="col subpics colGrady" id="chair3"><img src="../Images/chair3.png" width="180" height="100"></div>
+                <div class="col subpics colGrady" id="chair4"><img src="../Images/chair4.png" width="180" height="100"></div>
+              </div>
+            </div>
          </div>
+​
          <div class="col-md-5">
-        <h1>Ellis Tripod Floor Lamp</h1>
-        <p class="smalltext">SKU: 369501</p>
-        <h2>$79.00</h2>
+            <div class="container">
+                <div class="row">
+                  <div class="col-10 colGrady"><h1 class="productnametext">Esters Wood Arm Chair</h1></div>
+                  <div class="col colGrady"><img src="../Images/Heart Icon.png" align="right" width="30" height="30"></div>
+                  <div class="w-100"></div>
+                  <div class="col colGrady"><p class="skutext">SKU: 827493</p></div>
+                  <div class="col colGrady"><img src="../Images/fivestars.png" align="right"></div>
+                  <div class="w-100"></div>
+                  <div class="col colGrady"><p class="pricetext">$299.99</p></div>
+                  <div class="col colGrady"><p class="rewiewstext" align="right">23 Reviews</p></div>
+                  <div class="w-100"></div>
+                  <div class="col colGrady"><img src="../Images/threesquaresnoheart.png" width="100" height="30"></div>
+                  <div class="col mainCart">
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-secondary">+</button>
+                            <button type="button" class="btn btn-secondary">1</button>
+                            <button type="button" class="btn btn-secondary">-</button>
+                        </div>                            
+                  </div>
+                </div>
+              </div>
+              <br>
+                <button type="button" class="btn btn-primary btn-lg btn-block">ADD TO CART</button>
+                    <ul class="list-group">
+                    <li class="list-group-item">
+                        <span class="badge">+</span>
+                        Overview
+                    </li>
+                    <li class="list-group-item">
+                        <span class="badge">+</span>
+                        Details & Dimensions
+                    </li>
+                    <li class="list-group-item">
+                        <span class="badge">+</span>
+                        Shipping & Returns
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+​
+<!-- OG container
+        <h1>Esters Wood Arm Chair</h1>
+        <p class="smalltext">SKU: 827493</p>
+        <h2>$299.99</h2>
         <img src="../Images/hearticon1.png">
         <img src="../Images/fivestars.png">
-        <p class="smalltext">14 Reviews</p>
+        <p class="smalltext">23 Reviews</p>
         <img src="../Images/coloroption2.png">
+        <img src="../Images/coloroption3.png">
+        <img src="../Images/coloroption4.png">
 ​
+-->
+          
+       
 ​
-​
+<!-- button html 
         <button type="button" class="btn btn-primary btn-lg btn-block">ADD TO CART</button>
         <section class="infotab">
            <p>overview</p>
@@ -66,19 +168,143 @@
             <p>+</p>
          </section>
         </div>
-        </div><!-- end row -->
-       </div><!-- end container -->
+      -->
 ​
-       <img src="../Images/lamp2.png">
-       <img src="../Images/lamp3.png">
+        
 ​
+       <!-- alt images
+       <div class="container" id="product-section">
+        <div class="row">
+         <div class="col-md-7">
+       <img src="../Images/chair2.png">
+       <img src="../Images/chair3.png">
+       <img src="../Images/chair4.png">
+       </div>
+       </div>
+      -->
+​
+      <!-- Alternate product photos
+        
+        <div class="container" id="other-products">
+        <div class="row">
+​
+         <div class="col-md-2">
+       <div class="gallery">
+          <img src="../Images/chair2.png" width="200" height="150">
+       </div>
+         </div>
+​
+         <div class="col-md-2"></div>
+      <div class="gallery">
+        <img src="../Images/chair3.png" width="200" height="150">
+       </div>
+      </div>  
+​
+      <div class="col-md-2"></div>
+      <div class="gallery">
+        <img src="../Images/chair4.png" width="200" height="150">
+        </div>
+      </div>
+​
+        </div>
+        </div>
+        </div> -->
+      
     <!-- main image -->
 ​
 ​
     <!-- container -->
 ​
     <!-- additional images -->
-​
-    <!-- footer -->
+
+  <!-- FOOTER START -->
+  <br>
+  <br>
+  <br>
+    <footer class="page-footer font-small blue pt-4 nav-fill">
+  
+          <!-- Footer Links -->
+          <div class="container text-center text-md-left">
+        
+            <!-- Grid row -->
+            <div class="row">
+        
+              <!-- Grid column -->
+              <div class="col-md-6 mt-md-0 mt-3">
+        
+                <!-- Content -->
+                <h5 class="text-uppercase">Contact Us</h5>
+                <p><a href="#!" class="footerLink">1 (800) 646-9985</a></p>
+                <p><a href="mailto: customerservice@oakandthread.com" class="footerLink">customerservice@oakandthread.com</a></p>
+                <p><a href="www.target.com" class="footerLink">Find a Target</a></p>
+        
+              </div>
+              <!-- Grid column -->
+        
+              <hr class="clearfix w-100 d-md-none pb-3">
+        
+              <!-- Grid column -->
+              <div class="col-md-3 mb-md-0 mb-3">
+        
+                <!-- Links -->
+                <h5 class="text-uppercase">Customer Service</h5>
+        
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!" class="footerLink">Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="footerLink">Ordering & Payment</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="footerLink">Shipping</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="footerLink">Returns</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="footerLink">FAQs</a>
+                  </li>
+                </ul>
+        
+              </div>
+              <!-- Grid column -->
+        
+              <!-- Grid column -->
+              <div class="col-md-3 mb-md-0 mb-3">
+        
+                <!-- Links -->
+                <h5 class="text-uppercase">Information</h5>
+        
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!" class="footerLink">Work With Us</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="footerLink">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="footerLink">Terms & Conditions</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="footerLink">Media Inquiries</a>
+                  </li>
+                </ul>
+        
+              </div>
+              <!-- Grid column -->
+        
+            </div>
+          </div>
+          <!-- Footer Links -->
+        
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">© 2019 Copyright
+          </div>
+          <!-- Copyright -->
+    <br>
+    <br>
+      </footer>
+      <!-- FOOTER END -->
 </body>
 </html>
