@@ -47,3 +47,7 @@ button {
 .colSecurity {
     text-align: left;
 }
+
+.form-control {
+    width: 100%;
+}
