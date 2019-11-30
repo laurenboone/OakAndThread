@@ -22,3 +22,20 @@ button {
     border-color: black;
     text-align: left;
 }
+
+/* making things go side by side */
+.checkoutAll {
+    display: flex;
+    margin: 30px auto 0;
+    max-width: 1172px;
+    padding: 0 72px 24px;
+    justify-content: space-around;
+}
+
+.dropdown {
+    text-align: left;
+}
+
+.form-group {
+    margin-top: 1em;
+}

@@ -129,128 +129,99 @@
       </div>
       <br>
       <br>
-      <br>
-      <br>
     <!-- PROGRESS BAR END -->
 ​
+
       <!-- Body Section -->
-      <div class="row">
-        <!-- Form Start -->
-​
-        <div class="col-md-7">
-          <form class="form row">
-            <div class="col-md-6">
-              <label for="firstName"><b>First Name</b></label>
-              <input
-                class="form-control"
-                type="text"
-                placeholder="Enter name"
-                name="firstName"
-                required
-              />
-              <br />
-              <label for="address"><b>Address</b></label>
-              <input
-                class="form-control"
-                type="text"
-                placeholder="Enter address"
-                name="address"
-                required
-              />
-              <br />
-              <label for="City"><b>City</b></label>
-              <input
-                class="form-control"
-                type="text"
-                placeholder="Enter City"
-                name="address"
-                required
-              />
-              <br />
-              <label for="dlv"><b>Delivery Instructions</b></label>
-              <input
-                class="form-control"
-                type="text"
-                placeholder="Optional"
-                name="dlv"
-                required
-              />
-            </div>
-​
-            <div class="col-md-6">
-              <label for="lastName"><b>Last Name</b></label>
-              <input
-                class="form-control"
-                type="text"
-                placeholder="Enter name"
-                name="lastName"
-                required
-              />
-              <br />
-​
-              <label for="pc"><b>Postal Code</b></label>
-              <input
-                class="form-control"
-                type="text"
-                placeholder="Enter postal code"
-                name="pc"
-                required
-              />
-              <br />
-​
-              <label for="phoneNumber"><b>PHone Number</b></label>
-              <input
-                class="form-control"
-                type="text"
-                placeholder="Enter address"
-                name="phoneNumber"
-                required
-              />
-            </div>
-          </form>
-        </div>
-        <!-- Form End -->
-        <!-- Checkout Summary -->
-        <div class="col-md-4 offset-md-1 checkout-summary">
-          <div class="row">
-            <div class="col-md-12">
-              <h2 class="checkout-summary__header">Checkout Summary</h1>
-            </div>
-          </div>
-          <br />
-          <div class="row">
-            <div class="col-md-6 checkout-summary__column-one col1">
-              <h4>Price (3 items)</h4>
-              <hr />
-              <h4>Delivery Charge</h4>
-              <h6><u>Flat Shipping Cost</u></h6>
-              <hr />
-              <h4>Sales Tax</h4>
-              <hr />
-              <h4><b>Total Price</b></h4>
-            </div>
-            <div class="col-md-6 checkout-summary__column-two col2">
-              <h4>$538.98</h4>
-              <hr />
-              <h4>$24.99</h4>
-              <hr />
-              <br />
-              <h4>$48.51</h4>
-              <hr />
-              <h4><b>$612.48</b></h4>
-            </div>
-          </div>
-        </div>
-        <button
-          type="button"
-          class="btn btn-danger confirm-shipping col-md-4 offset-md-8"
-        ><a href="../HTML/meganPayment.html" class="footerLink">Confirm Shipping</a>
-        </button>
-      </div>
-      <!-- Checkout Summary End -->
-      <!-- Body Section End -->
-    </main>
-    <!-- HEADER END -->
+      <div class="checkoutAll">
+          <!-- TEST FORM WITH FEEDBACK START-->
+          <form class="needs-validation" novalidate>
+             <h2>Shipping Address</h2>
+               <br>
+             <div class="form-row">
+               <div class="col-md-4 mb-3">
+                 <label for="validationCustom01">First name</label>
+                 <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Jane" required>
+                 <div class="valid-feedback">
+                   Looks good!
+                 </div>
+               </div>
+               <div class="col-md-4 mb-3">
+                 <label for="validationCustom02">Last name</label>
+                 <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Smith" required>
+                 <div class="valid-feedback">
+                   Looks good!
+                 </div>
+               </div>
+             </div>
+             <div class="form-row">
+                 <div class="col-md-4 mb-3">
+                     <label for="validationCustom02">Address</label>
+                     <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="1234 Thread St." required>
+                     <div class="valid-feedback">
+                       Looks good!
+                     </div>
+                   </div>
+                   <div class="col-md-4 mb-3">
+                       <label for="validationCustom02">City</label>
+                       <input type="text" class="form-control" id="validationCustom02" placeholder="City" value="Austin" required>
+                       <div class="valid-feedback">
+                         Looks good!
+                       </div>
+                     </div>
+             </div>
+             <div class="form-row">
+                 <div class="col-md-4 mb-3">
+                     <label for="validationCustom02">State</label>
+                     <input type="text" class="form-control" id="validationCustom02" placeholder="State" value="Texas" required>
+                     <div class="valid-feedback">
+                       Looks good!
+                     </div>
+                   </div>
+               <div class="col-md-4 mb-3">
+                 <label for="validationCustom05">Zip</label>
+                 <input type="text" class="form-control" id="validationCustom05" placeholder="787033" required>
+                 <div class="invalid-feedback">
+                   Please provide a valid zip.
+                 </div>
+               </div>
+             </div>
+             <div class="form-row" id="confirmbtn">
+             <button class="btn btn-primary btn-danger" type="submit">
+               <a href="../HTML/meganShipError.html">Confirm Shipping</a></button>
+             </div>
+           </form>
+           <div class="col-md-4 checkout-summary">
+               <div class="row">
+                 <div class="col-md-12">
+                   <h2 class="checkout-summary__header">Checkout Summary</h1>
+                 </div>
+               </div>
+               <br />
+               <div class="row">
+                 <div class="col-md-6 checkout-summary__column-one col1">
+                   <h4>Price (3 items)</h4>
+                   <hr />
+                   <h4>Delivery Charge</h4>
+                   <h6 style="font-size: .8rem;"><u>Flat Shipping Cost</u></h6>
+                   <hr />
+                   <h4>Sales Tax</h4>
+                   <hr />
+                   <h4><b>Total Price</b></h4>
+                 </div>
+                 <div class="col-md-6 checkout-summary__column-two col2">
+                   <h4>$538.98</h4>
+                   <hr />
+                   <h4>$24.99</h4>
+                   <hr />
+                   <br />
+                   <h4>$48.51</h4>
+                   <hr />
+                   <h4><b>$612.48</b></h4>
+                 </div>
+               </div>
+             </div>  
+         </div>
   </body>
   <!-- FOOTER START -->
 <br>

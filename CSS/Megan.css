@@ -145,8 +145,6 @@ body {
   }
   .confirm-shipping {
     margin-top: 50px; 
-    height: 81px;
-    font-size: 36px;
   }
 
   /* Progress Bar */
@@ -256,4 +254,10 @@ body {
 
 .form-control {
   width: auto;
+}
+
+#confirmbtn {
+  justify-content: left;
+  margin-left: 2em;
+  margin-top: 1em;
 }
