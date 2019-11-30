@@ -39,3 +39,11 @@ button {
 .form-group {
     margin-top: 1em;
 }
+
+.securityQ {
+    align-content: center;
+}
+
+.colSecurity {
+    text-align: left;
+}

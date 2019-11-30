@@ -16,16 +16,6 @@
 <link rel="stylesheet" type="text/css" href="../CSS/HeaderFooter.css">
 <link rel="stylesheet" type="text/css" href="../CSS/style.css">   
 <link rel="stylesheet" type="text/css" href="../CSS/rio.css">
-<!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
   </head>
   <body>
     <section>
@@ -57,7 +47,7 @@
           <div class="midNavIcons">
               <a class="heartIcon"> <img src="../Images/Heart Icon.png"></a>
               <a class="accountIcon"> <img src="../Images/Account Icon.png"></a>
-              <a class="cartIcon"> <img src="../Images/Cart Icon.png"></a>
+              <a class="cartIcon"> <img src="../Images/Cart3.png"></a>
               <a>Favorites</a>
               <a>Account</a>
               <a>Cart</a>
@@ -97,10 +87,10 @@
 
 <!-- NEW SECURITY QUESTION DROPDOWNS -->
 <div class="container">
-  <div class="form-group col-md-4">
+  <div class="form-group col colSecurity">
       <label for="inputState">Question 1</label>
       <select id="inputState" class="form-control">
-        <option selected>choose...</option>
+        <option selected>Choose...</option>
         <option>What was the make of your first car?</option>
         <option>In what city were you born?</option>
         <option>What is your favorite book?</option>
@@ -108,14 +98,15 @@
       <form>
           <div class="form-group">
             <label for="exampleInputPassword1">Answer</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Your Answer">
           </div>
         </form>
     </div>
-    <div class="form-group col-md-4">
-        <label for="inputState">Question 1</label>
+    <br>
+    <div class="form-group col colSecurity">
+        <label class="SecQueLabels" for="inputState">Question 2</label>
         <select id="inputState" class="form-control">
-          <option selected>choose...</option>
+          <option selected>Choose...</option>
           <option>What was the make of your first car?</option>
           <option>In what city were you born?</option>
           <option>What is your favorite book?</option>
@@ -123,14 +114,15 @@
         <form>
             <div class="form-group">
               <label for="exampleInputPassword1">Answer</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Your Answer">
             </div>
           </form>
       </div>
-      <div class="form-group col-md-4">
-          <label for="inputState">Question 1</label>
+      <br>
+      <div class="form-group col colSecurity">
+          <label for="inputState">Question 3</label>
           <select id="inputState" class="form-control">
-            <option selected>choose...</option>
+            <option selected>Choose...</option>
             <option>What was the make of your first car?</option>
             <option>In what city were you born?</option>
             <option>What is your favorite book?</option>
@@ -138,7 +130,7 @@
           <form>
               <div class="form-group">
                 <label for="exampleInputPassword1">Answer</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Your Answer">
               </div>
             </form>
           <button type="submit" class="btn-primary btn-danger btn-block">
@@ -312,5 +304,15 @@
         <!-- Copyright -->
     </footer>
     <!-- FOOTER END -->
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
 </body>
 </html>
