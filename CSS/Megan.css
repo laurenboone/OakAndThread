@@ -113,9 +113,9 @@ body {
   }
 
   /* Add a blue text color to links */
-  a {
-    color: white;
-  }
+  /* a {
+    color: white; */
+  /* } */
 
   /* Set a grey background color and center the text of the "sign in" section */
   .signin {
@@ -261,3 +261,23 @@ body {
   margin-left: 2em;
   margin-top: 1em;
 }
+
+.checkoutSummary {
+  justify-content: center;
+}
+
+.card-header:first-child {
+  background-color: #6D9E54;
+  color: white;
+}
+
+@media (max-width:600px) {
+    .progress-bar {
+      font-size: .1em!important;
+    }
+  }
+@media (max-width:600px) {
+    #optionalstuff {
+      display: none!important;
+    }
+  }

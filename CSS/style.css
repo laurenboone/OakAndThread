@@ -41,7 +41,7 @@
 
 /* Put boxes around filter categories */
 .filterBar {
-    outline: 2px solid;
+    /* outline: 2px solid; */
     margin: 0px 10px 0px 10px;
 }
 
@@ -105,3 +105,10 @@
     #returnsPolicy {
         text-decoration: underline;
     }
+
+    /* NEW SEARCH CARDS */
+    .card-body {
+        padding: 1.25rem 0rem 1.25rem 0rem;
+    }
+
+    
