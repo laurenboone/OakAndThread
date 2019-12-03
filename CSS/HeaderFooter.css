@@ -7,9 +7,6 @@ body {
 /* Nav center */
 .topNav {
     background-color: #EFEADE;
-    justify-content: space-around;
-    height: 2rem;
-    align-items: center;
 }
 
 .topHome {
@@ -234,9 +231,7 @@ a:hover {
 
 
 /* NEW HEADER */
-.bg-light {
-    background-color: #EFEADE!important;
-}
+
 
 #OTlogo {
     font-family: "Motters";
@@ -261,3 +256,11 @@ a:hover {
     background-image: url(../Images/small-space-chic-1110.png);
     }
 } */
+
+/* Hide Icons on Mobile */
+@media (max-width:600px) {
+    #optionalstuff {
+      display: none!important;
+    }
+  }
+
