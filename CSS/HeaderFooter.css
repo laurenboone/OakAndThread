@@ -35,13 +35,13 @@ body {
 }
 
 /* Flexbox on Nav */
-nav .wrap {
+/* nav .wrap {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     height: 40px;
     align-items: center;
-}
+} */
 
 /* Making tabs on top Nav bar */
 
@@ -90,6 +90,10 @@ a {
 
 a:hover {
     color: grey;;
+}
+
+.nav-item {
+    color: black;
 }
 
 /* button active color */
@@ -176,22 +180,29 @@ a:hover {
 /* Hero Image */
 #hero {
     padding-top: 15px;
-    padding-bottom: 15px; 
+    padding-bottom: 15px;
 }
+
+/* img {
+    width: 100%;
+    height: auto;
+} */
 
 /* Bottom Images Tan Boxes */
 #tanbox1 {
     background-color: #EFEADE;
-    margin-left: 15px;
-    margin-right: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
+    margin-bottom: 15px;
+   
+}
+
+.card {
+    border: transparent;
 }
 
 #tanbox2 {
     background-color: #EFEADE;
-    margin-left: 15px;
-    margin-right: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -216,7 +227,37 @@ a:hover {
 .InstaTitle {
     margin-bottom: 40px;
     outline: 2px solid;
-    margin-left: 470px;
-    margin-right: 470px;
+    /* margin-left: 470px; */
 }
+
 /* HEADER STYLE END!!!!! */
+
+
+/* NEW HEADER */
+.bg-light {
+    background-color: #EFEADE!important;
+}
+
+#OTlogo {
+    font-family: "Motters";
+    font-size: 2em;
+    text-decoration: none;
+    margin-right: 3em;
+}
+
+/* #targetLogo {
+    margin-right: 3em;
+} */
+
+/* Trying to make hero image mobile responsive */
+/* @media only screen and (min-width: 768px) {
+    #hero {
+    background-image: url(../Images/hero-mobile.png);
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    #hero {
+    background-image: url(../Images/small-space-chic-1110.png);
+    }
+} */
