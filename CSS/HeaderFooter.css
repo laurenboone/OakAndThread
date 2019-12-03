@@ -77,7 +77,7 @@ a:link {
 }
 
 a {
-    color: white;
+    color: black;
 }
 
 #homeLink {
@@ -89,7 +89,7 @@ a {
 } */
 
 a:hover {
-    color: grey;;
+    color: black;;
 }
 
 .nav-item {
@@ -134,9 +134,9 @@ a:hover {
 
 /* Search Bar */
 .btn {
-    background-color: black;
+    background-color: transparent;
     color: white;
-    border-color: white;
+    border-color: black;
 }
 
 /* .button-primary-override:hover, 
