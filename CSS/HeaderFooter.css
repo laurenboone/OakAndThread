@@ -1,34 +1,34 @@
 /* HOMEPAGE STYLE START */
 /* body default font */
 body {
-    font-family: "lato",Arial, Helvetica, sans-serif;
+  font-family: "lato", Arial, Helvetica, sans-serif;
 }
 
 /* Nav center */
 .topNav {
-    background-color: #EFEADE;
+  background-color: #efeade;
 }
 
 .topHome {
-    text-align: end;
-    color: black;
+  text-align: end;
+  color: black;
 }
 
 .topOT {
-    text-align: end;
+  text-align: end;
 }
 
 .topGiftcards {
-    text-align: end;
+  text-align: end;
 }
 
 .wrap {
-    max-width: 1240px;
-    margin: 0 auto;
+  max-width: 1240px;
+  margin: 0 auto;
 }
 
 .topTarget {
-    padding-right: 1rem;
+  padding-right: 1rem;
 }
 
 /* Flexbox on Nav */
@@ -42,43 +42,43 @@ body {
 
 /* Making tabs on top Nav bar */
 
-.top-bar-tabs { 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 16px;
-    }
+.top-bar-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
 
 .wrap {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .oatGrid {
-    background-color: #fff;
-    padding: 20px 9px;
+  background-color: #fff;
+  padding: 20px 9px;
 }
 
 .targetGrid {
-    padding: 20px 9px;
+  padding: 20px 9px;
 }
 
 .top-bar-links {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 32px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 32px;
 }
 
 /* links */
 a:link {
-    color: black;
-    text-decoration: underline;
+  color: black;
+  text-decoration: underline;
 }
 
 a {
-    color: black;
+  color: black;
 }
 
 #homeLink {
-    color: black;
+  color: black;
 }
 
 /* .homeLink {
@@ -86,11 +86,11 @@ a {
 } */
 
 a:hover {
-    color: black;;
+  color: black;
 }
 
 .nav-item {
-    color: black;
+  color: black;
 }
 
 /* button active color */
@@ -110,30 +110,29 @@ a:hover {
 /* Middle nav sear bar, logo and icons */
 
 .midNav .wrap {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    height: 150px;
-    align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  height: 150px;
+  align-items: center;
 }
 
 .logo {
-    font-family: "Motters";
-    font-size: 70pt;
-    text-align: center;
-    }
-
-.searchBar {
-    align-self: center;
-    justify-self: end;
+  font-family: "Motters";
+  font-size: 70pt;
+  text-align: center;
 }
 
+.searchBar {
+  align-self: center;
+  justify-self: end;
+}
 
 /* Search Bar */
 .btn {
-    background-color: transparent;
-    color: white;
-    border-color: black;
+  background-color: transparent;
+  color: white;
+  border-color: black;
 }
 
 /* .button-primary-override:hover, 
@@ -147,37 +146,37 @@ a:hover {
 } */
 
 /* Mid nav Icons in grid */
-.midNavIcons { 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 16px;
-    text-align: center;
-    /* align-self: center;
+.midNavIcons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 16px;
+  text-align: center;
+  /* align-self: center;
     text-align: center; */
-    }
+}
 
 .heartIcon {
-    align-self: end;
+  align-self: end;
 }
 
 .accountIcon {
-    align-self: end;
+  align-self: end;
 }
 
 .cartIcon {
-    align-self: end;
+  align-self: end;
 }
 
 /* Main Nav Flexbox */
-    .justify-content-center {
-    justify-content: space-between;
-    }
+.justify-content-center {
+  justify-content: space-between;
+}
 
 /* Hero Image */
 #hero {
-    padding-top: 15px;
-    padding-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 /* img {
@@ -187,57 +186,54 @@ a:hover {
 
 /* Bottom Images Tan Boxes */
 #tanbox1 {
-    background-color: #EFEADE;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-   
+  background-color: #efeade;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .card {
-    border: transparent;
+  border: transparent;
 }
 
 #tanbox2 {
-    background-color: #EFEADE;
-    padding-top: 15px;
-    padding-bottom: 15px;
+  background-color: #efeade;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 /* Center Tan Box Text */
 .col {
-    text-align: center;
+  text-align: center;
 }
 
 /* Footer---NEED TO CHANGE LINK COLOR TO WHITE */
 .page-footer {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 .footerLink {
-    color: white !important;
+  color: white !important;
 }
 
 /* Instagram */
 
 .InstaTitle {
-    margin-bottom: 40px;
-    outline: 2px solid;
-    /* margin-left: 470px; */
+  margin-bottom: 40px;
+  outline: 2px solid;
+  /* margin-left: 470px; */
 }
 
 /* HEADER STYLE END!!!!! */
 
-
 /* NEW HEADER */
 
-
 #OTlogo {
-    font-family: "Motters";
-    font-size: 2em;
-    text-decoration: none;
-    margin-right: 3em;
+  font-family: "Motters";
+  font-size: 2em;
+  text-decoration: none;
+  margin-right: 3em;
 }
 
 /* #targetLogo {
@@ -258,9 +254,11 @@ a:hover {
 } */
 
 /* Hide Icons on Mobile */
-@media (max-width:600px) {
-    #optionalstuff {
-      display: none!important;
-    }
+@media (max-width: 600px) {
+  #optionalstuff {
+    display: none !important;
   }
-
+  .insta-stack {
+    padding-top: 15px;
+  }
+}
