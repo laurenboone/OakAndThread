@@ -86,7 +86,7 @@ a {
 } */
 
 a:hover {
-  color: black;
+  color: white;
 }
 
 .nav-item {
@@ -128,11 +128,9 @@ a:hover {
   justify-self: end;
 }
 
-/* Search Bar */
+/* All buttons */
 .btn {
-  background-color: transparent;
-  color: white;
-  border-color: black;
+  border-radius: 0px;
 }
 
 /* .button-primary-override:hover, 

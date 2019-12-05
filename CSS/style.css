@@ -65,6 +65,10 @@
     color: black;
 }
 
+.btnLink {
+    color: white;
+}
+
 
 /* SHOPPING CART START */
 
@@ -98,6 +102,14 @@
         padding-top: 5px;
       }
 
+    .btn-secondary {
+        background-color: black;
+    }
+
+    .searchBtn {
+        border-radius: .25rem;
+    }
+
     .btnCart {
         align-self: right;
     }
@@ -111,4 +123,3 @@
         padding: 1.25rem 0rem 1.25rem 0rem;
     }
 
-    
